@@ -5,7 +5,6 @@
 using namespace std;
 
 struct MoveInformation {
-
 	string namefilm[10];
 	string creatorfilm[10];
 	string genrefilm[10];
@@ -18,7 +17,6 @@ struct MoveInformation {
 };
 
 void Minfo(MoveInformation& s) {
-
 	string filmname[10] = { "Mechanic: Resurrection", "Slenderman", "Gentlemen", "The Fugitive", "Operation Rescue", "Battle with the Devil", "Parker", "Ninja 2", "Legion", "Kickback" };
 	string creator[10] = { "Dennis Ganzel", "Victor Surge", "Guy Ritchie", "Rick Roman Waugh", "Sam Hargrave", "Yuval Adler", "Taylor Hackford", "Isaac Florentine", "Brian Knappenberger", "Terry Miles" };
 	string genre[10] = { "thriller","survival horror","crime","detective movie","thriller","fiction","action thriller","action thriller","documentary","comedy" };
@@ -33,7 +31,6 @@ void Minfo(MoveInformation& s) {
 }
 
 void printinfo( MoveInformation& s) {
-
 	for (int i = 0; i < 10; i++)
 	{
 		cout << s.namefilm[i] << " " << s.genrefilm[i] << "  Grade: " << s.grade[i] << "\n";
